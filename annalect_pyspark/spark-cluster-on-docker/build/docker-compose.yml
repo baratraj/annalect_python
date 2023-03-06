@@ -1,6 +1,6 @@
 ---
 # ----------------------------------------------------------------------------------------
-# -- Docs: https://github.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker --
+# -- Docs: https://github.com/baratraj/annalect_python/tree/main/annalect_pyspark/spark-cluster-on-docker --
 # ----------------------------------------------------------------------------------------
 version: "3.6"
 volumes:

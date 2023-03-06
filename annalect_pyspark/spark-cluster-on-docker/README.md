@@ -30,8 +30,8 @@
 
 1. Download the [docker compose](docker-compose.yml) file;
 
-```bash
-curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalone-cluster-on-docker/master/docker-compose.yml
+```
+brew install docker-compose
 ```
 
 3. Start the cluster;
