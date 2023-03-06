@@ -40,7 +40,7 @@ curl -LO https://raw.githubusercontent.com/cluster-apps-on-docker/spark-standalo
 docker-compose up
 ```
 
-4. Run Apache Spark code using the provided Jupyter [notebooks](build/workspace/) with Scala, PySpark and SparkR examples;
+4. Run Apache Spark code using the provided Jupyter [notebooks](build/workspace/):
 5. Stop the cluster by typing `ctrl+c` on the terminal;
 6. Run step 3 to restart the cluster.
 
@@ -50,20 +50,20 @@ docker-compose up
 
 1. Download the source code or clone the repository;
 2. Move to the build directory;
-
 ```bash
 cd build
 ```
-
 3. Start the cluster;
 
 ```bash
 docker-compose up
 ```
-
 4. Run Apache Spark code using the provided Jupyter [notebooks](build/workspace/);
-5. Stop the cluster by typing `ctrl+c` on the terminal;
-6. Run step 6 to restart the cluster.
-7. Open the notebook Take_home_assignment.ipynb
-8. Execute the notebook for solutions to the take home assignment
-9. The necessary dataset are present in the data folder 
+5. Stop the cluster by typing `ctrl+c` or the command specified below on the terminal;
+```bash
+docker-compose kill
+```
+7. Run step 6 to restart the cluster.
+8. Open the notebook Take_home_assignment.ipynb
+9. Execute the notebook for solutions to the take home assignment
+10. The necessary dataset are present in the data folder 
