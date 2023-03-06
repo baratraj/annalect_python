@@ -5,10 +5,7 @@
 
 - [Quick Start](#quick-start)
 - [Tech Stack](#tech-stack)
-- [Metrics](#metrics)
-- [Contributing](#contributing)
-- [Contributors](#contributors)
-- [Support](#support)
+
 
 ## <a name="quick-start"></a>Quick Start
 
